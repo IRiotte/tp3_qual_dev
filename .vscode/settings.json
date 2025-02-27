@@ -1,5 +1,12 @@
 {
     "files.exclude": {
         "**/.git": false
-    }
+    },
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "src/junit-4.13.2.jar",
+        "src/hamcrest-2.2.jar"
+    ]
 }
