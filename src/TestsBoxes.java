@@ -7,4 +7,12 @@ import static org.junit.Assert.assertEquals;
     public void testBoxCreate() {
         
     }
+
+    /** on veut pouvoir mettre des trucs dedans */
+    @Test
+    public void testBoxAdd(){
+        Box b = new Box();
+        b.add(new Thing("truc1"));
+        b.add(new Thing("truc2"));
+    }
 };
